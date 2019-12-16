@@ -1,0 +1,103 @@
+body {
+    background: #0b1813;
+    margin: 0;
+}
+#nav {
+    height: 60px;
+    width: 96%;
+    padding: 20px 2%;
+    background: rgb(1, 12, 10);
+}
+#mobile {
+    width: 60px;
+    height: 50px;
+    margin-top: -40px;
+    float: right;
+    cursor: pointer;
+}
+#mobile span {
+    display: block;
+    margin: 6px 0;
+    border-radius: 5px;
+    height: 7px;
+    width: 100%;
+    background: white;
+}
+/*nav_mobile*/
+#nav_mobile {
+    display: none;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    background: white;
+}
+#nav_mobile ul li {
+    list-style: none;
+}
+#nav_mobile ul li a {
+    display: block;
+    padding: 10px 0;
+    color: black;
+    text-decoration: none;
+}
+#nav_mobile ul li a:hover{
+    color: #48D7B7;
+}
+#brand {
+    height: 100%;
+    width: 100%;
+}
+#brand img {
+    height: 100%;
+    width: 70px
+}
+#container_blogs {
+    height: 1600px;
+    width: 100%;
+    background: rgb(28, 24, 29);
+}
+.container {
+    height: 100%;
+    width: 90%;
+    background: rgb(32, 27, 37);
+    margin: 0 auto;
+}
+#title_principal {
+    color: aliceblue;
+    text-decoration-color: #48D;
+}
+.blog {
+    height: 300px;
+    width: 100%;
+}
+.cont_blog {
+    height: 250px;
+    width: 90%;
+    margin: 0 auto;
+}
+.portada {
+    height: 100%;
+    width: 40%;
+    float: right;
+}
+.portada img {
+    height: 100%;
+    width: 100%;
+    transform: translateY(30px);
+}
+.contenido {
+    height: 100%;
+    width: 60%;
+    float: right;
+}
+.title_blog {
+    color: rgb(17, 85, 105);
+    text-decoration: none;
+}
+.bajada {
+    font-style: italic;
+    color:rgb(63, 109, 165);
+}
+.cuerpo {
+    color: rgb(117, 162, 214);
+}
